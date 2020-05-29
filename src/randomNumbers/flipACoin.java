@@ -16,7 +16,7 @@ public class flipACoin {
 		double max = 1000000;
 		while (trial <= max) {
 
-			while (count <= 100000) {
+			while (count <= 10000) {
 				num = generator.nextInt(2 - 1 + 1) + 1;
 				if (num == 1) {
 					heads++;
