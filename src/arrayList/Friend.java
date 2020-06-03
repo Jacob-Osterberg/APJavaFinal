@@ -1,9 +1,7 @@
 package arrayList;
 
-import java.util.Scanner;
-
 public class Friend {
-	Scanner input = new Scanner(System.in);
+
 	String name;
 	int age;
 
